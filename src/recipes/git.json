@@ -1,0 +1,6 @@
+{
+    "scripts": [],
+    "dependencies": [],
+    "paths": [{ "source": "src/resources/gitignore", "dest": ".gitignore" }],
+    "customEntries": []
+}

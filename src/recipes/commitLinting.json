@@ -1,0 +1,20 @@
+{
+    "scripts": [],
+    "dependencies": [
+        {
+            "library": "@commitlint/config-angular",
+            "version": "^8.2.0"
+        },
+        {
+            "library": "commitlint",
+            "version": "^8.2.0"
+        }
+    ],
+    "paths": [
+        {
+            "source": "commitlint.config.js",
+            "dest": "commitlint.config.js"
+        }
+    ],
+    "customEntries": []
+}

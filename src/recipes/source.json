@@ -1,0 +1,14 @@
+{
+    "scripts": [],
+    "dependencies": [],
+    "paths": [
+        { "source": "src/src", "dest": "src" },
+        { "source": "src/dist", "dest": "dist" }
+    ],
+    "customEntries": [
+        {
+            "path": ["standard-version", "skip", "tag"],
+            "value": true
+        }
+    ]
+}
