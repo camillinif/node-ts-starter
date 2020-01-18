@@ -1,5 +1,5 @@
 {
-    "name": "node-ts-starter",
+    "name": "@camillinif/node-ts-starter",
     "version": "1.0.0",
     "description": "",
     "bin": "src/index.js",
@@ -9,6 +9,8 @@
         "check-dep": "npm-check -p",
         "lint": "eslint  --ignore-path .gitignore .",
         "changelog": "standard-version --no-verify",
+        "changelog-minor": "standard-version --no-verify --release-as minor",
+        "changelog-patch": "standard-version --no-verify --release-as patch",
         "first-release": "standard-version --first-release",
         "coverage": "stryker run"
     },
